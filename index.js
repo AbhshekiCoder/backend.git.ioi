@@ -26,3 +26,7 @@ wss.on('connection', (ws) => {
 
     }); 
 });
+app.listen(5000, ()=>{
+  console.log("connected")
+}
+          )
